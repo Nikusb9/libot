@@ -10,8 +10,8 @@ from qrcode.image.styledpil import StyledPilImage
 from qrcode.image.styles.moduledrawers import RoundedModuleDrawer
 
 # Вставьте свой токен
-TOKEN = "5761520252:AAH2EumvGsjy4B91mDn7HOIe3x9TvHl3VcU"
-TARGET_CHAT_ID = "-4073813379"
+TOKEN = "TELEGRAM TOKEN"
+TARGET_CHAT_ID = "GROUP ID"
 
 # Настройка логгирования
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
