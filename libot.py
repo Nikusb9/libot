@@ -1,13 +1,13 @@
-#pip install python-telegram-bot==13.13 opencv-python qrcode[pil]
+import cv2
 import logging
 import telegram
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 import qrcode
-import cv2
-from datetime import datetime, timedelta
 from qrcode.image.styledpil import StyledPilImage
 from qrcode.image.styles.moduledrawers import RoundedModuleDrawer
+from datetime import datetime, timedelta
+
 
 # Вставьте свой токен
 TOKEN = "TELEGRAM TOKEN"
